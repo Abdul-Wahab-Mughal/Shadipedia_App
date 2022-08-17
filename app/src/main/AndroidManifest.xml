@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.shadipedia">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+
+    <application
+        android:fullBackupContent="@xml/backup_descriptor"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Shadipedia"
+        android:usesCleartextTraffic="true"
+        tools:ignore="AllowBackup"
+        tools:targetApi="m">
+        <activity android:name="com.spapp.shadipedia.Provider.Provider_Forget_Password"/>
+        <activity android:name="com.spapp.shadipedia.User.User_Forget_Password"/>
+        <activity android:name="com.spapp.shadipedia.Rate_Display" />
+        <activity android:name="com.spapp.shadipedia.Rate_Post" />
+        <activity android:name="com.spapp.shadipedia.Full_Screen_Image" />
+        <activity android:name="com.spapp.shadipedia.Provider.Provider_Edit_Post" />
+        <activity android:name="com.spapp.shadipedia.Provider.ProviderPostDisplay" />
+        <activity android:name="com.spapp.shadipedia.Provider.Post_Form" />
+        <activity android:name="com.spapp.shadipedia.Provider.Provider_Edit_Profile" />
+        <activity android:name="com.spapp.shadipedia.Provider.Provider_Change_Password" />
+        <activity android:name="com.spapp.shadipedia.Provider_home_page" />
+        <activity android:name="com.spapp.shadipedia.User.User_Change_Password" />
+        <activity android:name="com.spapp.shadipedia.User_home_page" />
+        <activity android:name="com.spapp.shadipedia.getStarted" />
+        <activity android:name="com.spapp.shadipedia.MainProviderFragment" />
+        <activity android:name="com.spapp.shadipedia.User.User_Edit_Profile" />
+        <activity android:name="com.spapp.shadipedia.MainUserFragment" />
+        <activity
+            android:name="com.spapp.shadipedia.Provider.SinglePostChatsList"
+            android:label="@string/title_activity_single_post_chats_list"
+            android:theme="@style/Theme.Shadipedia.NoActionBar" />
+        <activity
+            android:name="com.spapp.shadipedia.Provider.ProviderChatList"
+            android:label="@string/title_activity_provider_chat_list"
+            android:theme="@style/Theme.Shadipedia.NoActionBar"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name="com.spapp.shadipedia.User.UserChatList"
+            android:label="@string/title_activity_user_chat_list"
+            android:theme="@style/Theme.Shadipedia.NoActionBar"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name="com.spapp.shadipedia.User.UserFavorite"
+            android:label="@string/title_activity_user_favorite"
+            android:theme="@style/Theme.Shadipedia.NoActionBar"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name="com.spapp.shadipedia.User.User_Post_Display"
+            android:label="@string/title_activity_user__post__display"
+            android:theme="@style/Theme.Shadipedia.NoActionBar" />
+        <activity
+            android:name="com.spapp.shadipedia.ProviderChatActivity"
+            android:label="@string/title_activity_chat"
+            android:theme="@style/Theme.Shadipedia.NoActionBar" />
+        <activity
+            android:name="com.spapp.shadipedia.UserChatActivity"
+            android:label="@string/title_activity_chat"
+            android:theme="@style/Theme.Shadipedia.NoActionBar" />
+        <activity
+            android:name="com.spapp.shadipedia.Provider.Provider_Home_Fragment"
+            android:label="@string/title_activity_provider__home"
+            android:theme="@style/Theme.Shadipedia.NoActionBar"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name="com.spapp.shadipedia.Provider.Provider_Profile_Fragment"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name="com.spapp.shadipedia.Provider.ProviderMyPostFragment"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name="com.spapp.shadipedia.Provider.ProviderRegisterFragment"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name="com.spapp.shadipedia.User.User_profile_Fragment"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name="com.spapp.shadipedia.User.UserhomeFragment"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name="com.spapp.shadipedia.Provider.ProviderLoginFragment"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name="com.spapp.shadipedia.User.UserRegisterFragment"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name="com.spapp.shadipedia.User.UserLoginFragment"
+            tools:ignore="Instantiatable" />
+        <activity android:name="com.spapp.shadipedia.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

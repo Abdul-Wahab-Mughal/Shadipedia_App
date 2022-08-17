@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.spapp.shadipedia.Provider.Provider_Edit_Profile">
+
+
+    <TextView
+        android:id="@+id/text_change"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center_vertical"
+        android:paddingStart="25sp"
+        android:text="Edit Profile"
+        android:textColor="@color/app"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        tools:ignore="RtlSymmetry" />
+
+    <LinearLayout
+        android:id="@+id/EP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_change"
+        android:layout_marginHorizontal="30sp"
+        android:background="@drawable/backprofile"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:elevation="5dp"
+            app:boxStrokeColor="@color/black"
+            app:hintTextColor="@color/black">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editPchangename"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="Name :"
+                android:inputType="textPersonName"
+                android:lines="1"
+                android:textCursorDrawable="@color/black" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="5sp"
+            android:background="@color/gray"
+            tools:ignore="SmallSp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:elevation="5dp"
+            app:boxStrokeColor="@color/black"
+            app:hintTextColor="@color/black">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editPchangeage"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="Age :"
+                android:inputType="textPersonName"
+                android:lines="1"
+                android:textCursorDrawable="@color/black" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="5sp"
+            android:background="@color/gray" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:elevation="5dp"
+            app:boxStrokeColor="@color/black"
+            app:hintTextColor="@color/black">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editPchangemobile"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="Mobile :"
+                android:inputType="textPersonName"
+                android:lines="1"
+                android:textCursorDrawable="@color/black" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EP"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/Submiteproviderpro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit" />
+
+    </LinearLayout>
+
+</RelativeLayout>

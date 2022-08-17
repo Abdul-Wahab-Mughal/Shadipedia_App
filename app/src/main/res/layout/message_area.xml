@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingVertical="5sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10sp"
+            android:layout_weight="1"
+            android:background="@drawable/message_sent">
+
+            <EditText
+                android:id="@+id/messageArea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20sp"
+                android:hint="Write a message..."
+                android:paddingVertical="10dp"
+                android:maxHeight="125dp"
+                android:background="@drawable/message_sent"
+                android:textColor="@color/white"
+                android:textColorHint="#CFD8DC"
+                android:inputType="textCapSentences|textMultiLine"/>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom">
+
+            <LinearLayout
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_marginEnd="10sp"
+                android:layout_weight="5"
+                android:background="@drawable/message_sent_app"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/sendButton"
+                    android:layout_width="45sp"
+                    android:layout_height="45sp"
+                    android:padding="4dp"
+                    android:src="@drawable/ic_menu_send" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

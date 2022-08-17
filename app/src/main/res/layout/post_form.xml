@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.spapp.shadipedia.Provider.Post_Form">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:id="@+id/postimage"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:background="@drawable/ic_menu_camera_white"
+            android:contentDescription="@string/todo" />
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="300dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:elevation="5dp"
+                    android:hint="@string/name"
+                    app:boxCornerRadiusTopEnd="20sp"
+                    app:boxCornerRadiusTopStart="20sp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editpostname"
+                        android:layout_width="300dp"
+                        android:layout_height="60dp"
+                        android:inputType="textCapSentences"
+                        android:lines="1"
+                        android:textSize="20sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="300dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:elevation="5dp"
+                    android:hint="Title :">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editposttitle"
+                        android:layout_width="300dp"
+                        android:layout_height="60dp"
+                        android:inputType="textCapSentences"
+                        android:lines="1"
+                        android:textSize="20sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:elevation="5dp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editpostDescription"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Description :"
+                        android:inputType="textMultiLine|textCapSentences"
+                        android:lines="1"
+                        android:textSize="20sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:elevation="5dp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editpostMobile"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Phone number :"
+                        android:inputType="number"
+                        android:lines="1"
+                        android:textSize="20sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:elevation="5dp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editpostAddress"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Address :"
+                        android:inputType="textCapSentences"
+                        android:lines="1"
+                        android:textSize="20sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                    android:layout_width="300dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:elevation="5dp"
+                    app:endIconMode="dropdown_menu">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/editcardcity"
+                        android:layout_width="300dp"
+                        android:layout_height="60dp"
+                        android:hint="City :"
+                        android:inputType="text"
+                        android:lines="1"
+                        android:textSize="20sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                    android:layout_width="300dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:elevation="5dp"
+                    app:endIconMode="dropdown_menu">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/editpostcategory"
+                        android:layout_width="300dp"
+                        android:layout_height="60dp"
+                        android:hint="Category :"
+                        android:inputType="text"
+                        android:lines="1"
+                        android:textSize="20sp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:elevation="5dp"
+                    app:boxCornerRadiusBottomEnd="20sp"
+                    app:boxCornerRadiusBottomStart="20sp"
+                    app:prefixText="Rs.">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editpostPrice"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Price :"
+                        android:inputType="number"
+                        android:lines="1"
+                        android:textSize="20sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <Button
+                    android:id="@+id/postsubmit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginVertical="50sp"
+                    android:text="Post" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+</RelativeLayout>

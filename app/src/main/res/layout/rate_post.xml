@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20sp"
+    tools:context="com.spapp.shadipedia.Rate_Post">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|top"
+        android:orientation="vertical"
+        android:paddingTop="50sp"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/ratetext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rate The Post"
+            android:textSize="32sp" />
+
+        <RatingBar
+            android:id="@+id/ratingBarpost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25sp"
+            android:numStars="5"
+            android:stepSize="1" />
+
+        <TextView
+            android:id="@+id/ratingq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="32sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="50sp"
+            android:maxHeight="200dp"
+            android:elevation="5dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editcomment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Comment :"
+                android:inputType="textCapSentences|textMultiLine"
+                android:lines="1"
+                android:textColor="@color/white" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/Submitrate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Submit" />
+
+    </LinearLayout>
+
+</RelativeLayout>

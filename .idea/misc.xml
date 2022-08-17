@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Wahab/Shadipedia app/app/src/main/res/drawable/profile_tap.xml" value="0.23692307692307693" />
+        <entry key="..\:/Wahab/Shadipedia app/app/src/main/res/layout/activity_main_provider_fragment.xml" value="0.2115036231884058" />
+        <entry key="..\:/Wahab/Shadipedia app/app/src/main/res/layout/dropdown.xml" value="0.22447916666666667" />
+        <entry key="..\:/Wahab/Shadipedia app/app/src/main/res/layout/post_card.xml" value="0.22447916666666667" />
+        <entry key="..\:/Wahab/Shadipedia app/app/src/main/res/layout/post_form.xml" value="0.22447916666666667" />
+        <entry key="..\:/Wahab/Shadipedia app/app/src/main/res/layout/provider_change_password.xml" value="0.22447916666666667" />
+        <entry key="..\:/Wahab/Shadipedia app/app/src/main/res/layout/provider_chat_activity.xml" value="0.22447916666666667" />
+        <entry key="..\:/Wahab/Shadipedia app/app/src/main/res/layout/provider_chat_list.xml" value="0.22447916666666667" />
+        <entry key="..\:/Wahab/Shadipedia app/app/src/main/res/layout/provider_edit_profile.xml" value="0.22447916666666667" />
+        <entry key="..\:/Wahab/Shadipedia app/app/src/main/res/layout/provider_home_fragment.xml" value="0.22447916666666667" />
+        <entry key="..\:/Wahab/Shadipedia app/app/src/main/res/layout/provider_home_page.xml" value="0.22447916666666667" />
+        <entry key="..\:/Wahab/Shadipedia app/app/src/main/res/layout/provider_login_fragment.xml" value="0.22447916666666667" />
+        <entry key="..\:/Wahab/Shadipedia app/app/src/main/res/layout/provider_post_display.xml" value="0.22447916666666667" />
+        <entry key="..\:/Wahab/Shadipedia app/app/src/main/res/layout/provider_profile_fragment.xml" value="0.22447916666666667" />
+        <entry key="..\:/Wahab/Shadipedia app/app/src/main/res/layout/provider_register_fragment.xml" value="0.22447916666666667" />
+        <entry key="..\:/Wahab/Shadipedia app/app/src/main/res/layout/user_chat_list_display.xml" value="0.1109375" />
+        <entry key="..\:/Wahab/Shadipedia app/app/src/main/res/layout/user_forget_password.xml" value="0.22447916666666667" />
+        <entry key="..\:/Wahab/Shadipedia app/app/src/main/res/layout/user_home_fragment.xml" value="0.22447916666666667" />
+        <entry key="..\:/Wahab/Shadipedia app/app/src/main/res/layout/user_login_fragment.xml" value="0.22447916666666667" />
+        <entry key="..\:/Wahab/Shadipedia app/app/src/main/res/layout/user_profile_fragment.xml" value="0.22447916666666667" />
+        <entry key="..\:/Wahab/Shadipedia app/app/src/main/res/layout/user_register_fragment.xml" value="0.22447916666666667" />
+        <entry key="..\:/Wahab/Shadipedia app/app/src/main/res/menu/provider_home.xml" value="0.22447916666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

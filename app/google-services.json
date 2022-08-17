@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "889034131197",
+    "firebase_url": "https://shadipedia-e8aac-default-rtdb.firebaseio.com",
+    "project_id": "shadipedia-e8aac",
+    "storage_bucket": "shadipedia-e8aac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:889034131197:android:7670335cfe1cb59a95e094",
+        "android_client_info": {
+          "package_name": "com.Shadipedia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "889034131197-knekvblvqta3bn2lk3nplmftvro7fcv3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUuC9VCmg74uXs-4_I6muVWsLMtFpc6L0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "889034131197-knekvblvqta3bn2lk3nplmftvro7fcv3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:889034131197:android:0f119af9e3b8dd1f95e094",
+        "android_client_info": {
+          "package_name": "com.android.shadipedia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "889034131197-knekvblvqta3bn2lk3nplmftvro7fcv3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUuC9VCmg74uXs-4_I6muVWsLMtFpc6L0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "889034131197-knekvblvqta3bn2lk3nplmftvro7fcv3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:889034131197:android:c82ab1d626ca7ca595e094",
+        "android_client_info": {
+          "package_name": "com.spapp.shadipedia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "889034131197-knekvblvqta3bn2lk3nplmftvro7fcv3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUuC9VCmg74uXs-4_I6muVWsLMtFpc6L0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "889034131197-knekvblvqta3bn2lk3nplmftvro7fcv3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

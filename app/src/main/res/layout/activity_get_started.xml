@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.spapp.shadipedia.getStarted">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/shadipedia"
+            android:contentDescription="@string/todo"
+            tools:ignore="InOrMmUsage" />
+
+        <Button
+            android:id="@+id/User"
+            android:layout_width="2.4in"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@color/app"
+            android:text="@string/user"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:ignore="InOrMmUsage" />
+
+        <Button
+            android:id="@+id/Provider"
+            android:layout_width="2.4in"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@color/app"
+            android:text="@string/provider"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:ignore="InOrMmUsage" />
+
+    </LinearLayout>
+
+</RelativeLayout>

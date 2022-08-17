@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.spapp.shadipedia.Rate_Display">
+
+    <LinearLayout
+        android:id="@+id/ratetop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingVertical="20sp"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View the Rate"
+            android:textSize="32sp" />
+
+        <RatingBar
+            android:id="@+id/ratingBarposttotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:ratingBarStyleIndicator"
+            android:layout_marginTop="25sp"
+            android:numStars="5"
+            android:stepSize=".5" />
+
+        <TextView
+            android:id="@+id/avgratetext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/ratetop"
+        android:background="@color/app"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/ratedisplayuser"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10sp"
+        android:layout_below="@+id/line"/>
+
+</RelativeLayout>
